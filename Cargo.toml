@@ -1,0 +1,17 @@
+[package]
+name = "tantivy-macro"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+description = "derive tantivy schema api"
+repository = "https://github.com/thlstsul/tantivy-macro"
+keywords = ["tantivy", "derive", "macro", "schema", "document"]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+darling = "0.20.3"
+proc-macro2 = "1.0.69"
+quote = "1.0.33"
+syn = "2.0.38"
